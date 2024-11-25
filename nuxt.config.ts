@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'shadcn-nuxt',
     '@nuxt/icon',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/seo'
   ],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
