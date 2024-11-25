@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'shadcn-nuxt',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@nuxt/image'
   ],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
