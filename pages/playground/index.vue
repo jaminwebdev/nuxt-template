@@ -1,8 +1,5 @@
 <template>
-  Hello there!
-  <Button variant="link">
-    <NuxtLink to="/">
-      Home
-    </NuxtLink>
-  </Button>
+  <Container>
+    <h1>Playground</h1>
+  </Container>
 </template>

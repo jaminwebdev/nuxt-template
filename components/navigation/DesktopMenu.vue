@@ -1,24 +1,23 @@
-<script setup>
-  import { navigationMenuTriggerStyle } from '@/components/ui/navigation-menu'
-</script>
-
 <template>
-  <NavigationMenu>
-    <NavigationMenuList>
-      <NavigationMenuItem>
-        <NuxtLink to="/">
-          <NavigationMenuLink :class="navigationMenuTriggerStyle()">
-            Home
-          </NavigationMenuLink>
-        </NuxtLink>
-      </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NuxtLink to="/playground">
-          <NavigationMenuLink :class="navigationMenuTriggerStyle()">
-            Playground
-          </NavigationMenuLink>
-        </NuxtLink>
-      </NavigationMenuItem>
-    </NavigationMenuList>
-  </NavigationMenu>
+  <nav class="hidden md:flex justify-between items-center py-5">
+    <div>
+      <NuxtLink to="/">
+        <SiteLogo />
+      </NuxtLink>
+    </div>
+    <div class="flex gap-5">
+      <NavigationMenu>
+        <NavigationMenuList class="text-lg flex gap-4">
+          <NavigationMenuItem>
+            <NuxtLink to="/playground">
+              <NavigationMenuLink>
+                Playground
+              </NavigationMenuLink>
+            </NuxtLink>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+      <ThemeToggle />
+    </div>
+  </nav>  
 </template>
