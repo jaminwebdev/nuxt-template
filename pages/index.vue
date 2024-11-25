@@ -26,6 +26,10 @@
         <Icon class='text-teal-400' name="material-symbols:check-circle" size="24px"/> 
         Nuxt SEO
       </li>
+      <li class="flex items-center gap-2">
+        <Icon class='text-teal-400' name="material-symbols:check-circle" size="24px"/> 
+        Nuxt Content
+      </li>
     </ul>
   </Container>
 </template>

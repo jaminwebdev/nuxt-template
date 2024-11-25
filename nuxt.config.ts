@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
+    '@nuxt/content'
   ],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -21,5 +22,13 @@ export default defineNuxtConfig({
   ],
   typescript: {
     typeCheck: true
-  }
+  },
+  content: {
+    highlight: {
+        theme: {
+            default: "one-dark-pro",
+            dark: "github-dark",
+        },
+    },
+  },
 })

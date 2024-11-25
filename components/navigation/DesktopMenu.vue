@@ -15,6 +15,13 @@
               </NavigationMenuLink>
             </NuxtLink>
           </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NuxtLink to="/blog">
+              <NavigationMenuLink>
+                Blog
+              </NavigationMenuLink>
+            </NuxtLink>
+          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
       <ThemeToggle />

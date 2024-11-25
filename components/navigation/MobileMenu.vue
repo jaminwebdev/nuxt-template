@@ -9,10 +9,15 @@
         <SheetTrigger>
           <Icon name="solar:hamburger-menu-broken" size="36px" />
         </SheetTrigger>
-        <SheetContent class="bg-slate-100 dark:bg-slate-950 grid content-start pt-24">
+        <SheetContent class="bg-slate-100 dark:bg-slate-950 grid content-start pt-24 grid-cols-1">
           <SheetClose>
             <NuxtLink to="/playground" class="text-xl font-bold">
               Playground
+            </NuxtLink>
+          </SheetClose>
+          <SheetClose>
+            <NuxtLink to="/blog" class="text-xl font-bold">
+              Blog
             </NuxtLink>
           </SheetClose>
         </SheetContent>
